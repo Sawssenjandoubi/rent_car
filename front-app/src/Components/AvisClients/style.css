@@ -1,0 +1,20 @@
+.exp_bloc_avis{
+    background-color: white;
+    display:flex;
+    border: 1px solid black;
+    width: 30%;
+    height: 50%;
+    margin-top: 50px;
+
+   }
+   .productDesc {
+    font-style: 24px;
+    color: gray;
+  }
+  .product {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+  
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  }

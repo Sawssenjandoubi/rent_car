@@ -1,0 +1,18 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="54" height="52" viewBox="0 0 54 52">
+    <defs>
+        <clipPath id="sqh0wz49ga">
+            <path data-name="Rectangle 1016" style="fill:none;stroke:#819db4" d="M0 0h54v52H0z"></path>
+        </clipPath>
+    </defs>
+    <g data-name="Groupe 8846" style="clip-path:url(#sqh0wz49ga)">
+        <path data-name="Tracé 8220" d="M48.947 47.8a4.89 4.89 0 0 1-4.6 3.07H14.631" transform="translate(-.545 -2.201)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+        <path data-name="Tracé 8221" d="M14.977 21.329c2.839-.837 13.445-4.757 13.445-16.934A3.459 3.459 0 0 1 32.108 1.3S35.851.494 36.3 5.168c0 0 .973 8.158-1.723 13.5h16.162s1.59-.26 2.371 1.827" transform="translate(-.558 -.058)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+        <path data-name="Tracé 8222" d="M.778 21.377h8.06v30.415H0" transform="translate(0 -.984)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+        <path data-name="Ligne 427" transform="translate(47.215 26.474)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4" d="M0 0h1.482"></path>
+        <path data-name="Tracé 8223" d="M54.693 24.241A3.969 3.969 0 0 1 50.4 27.59" transform="translate(-1.877 -1.116)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+        <path data-name="Ligne 428" transform="translate(46.318 33.961)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4" d="M0 0h1.482"></path>
+        <path data-name="Tracé 8224" d="M53.76 32.089a3.968 3.968 0 0 1-4.294 3.349" transform="translate(-1.842 -1.477)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+        <path data-name="Ligne 429" transform="translate(44.463 41.529)" style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4" d="M0 0h1.482"></path>
+        <path data-name="Tracé 8225" d="M51.833 40.022a3.968 3.968 0 0 1-4.294 3.349" transform="translate(-1.771 -1.843)" style="stroke-miterlimit:10;stroke-width:2.5px;fill:none;stroke:#819db4"></path>
+    </g>
+</svg>

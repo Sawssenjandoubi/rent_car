@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+.me-auto {
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+}
+.login {
+    position: relative;
+    left: 75%;
+}
+.nav-container {
+    position: sticky;
+    top: 0px;
+}
+.Auth-form-container-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 70px;
+}
+.Auth-form-container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Auth-form {
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+.blogs-container {
+    /* border: 1px solid red; */
+    min-height: 300vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+#blog-item-container {
+    /* border: 1px solid black; */
+    box-shadow: 0px 4px 17px -8px rgba(0, 0, 0, 0.75);
+    min-height: 60vh;
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+#drop-btn {
+    align-self: flex-end;
+}
+#blog-item-container h2 {
+    /* width: 70%; */
+    text-align: center;
+    color: red;
+}
+.blogs-nbre {
+    background-color: white;
+    color: #212529;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 450px;
+    top: 10px;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 70px;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.logo-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.logo-car{
+    width: 40px;
+    height: 40px;
+    border: solid black 2px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 10rem;
+    
+    
+
+}
+img{
+    width:15%;
+     height:80px;
+     display: flex;
+     justify-content: flex-start;
+     margin: 20px;
+     margin-top: 5px;
+}
+
+@media screen and (min-width: 70em) {
+    body {
+        background-color: red;
+    }
+    
+}

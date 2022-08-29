@@ -1,0 +1,9 @@
+.clippy{
+    /*clip-path: polygon(0 0, 100% 0, 100% 85%, 0 64%);*/
+   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+   /*clip-path: polygon(0 0, 100% 0%, 100% 95%, 0 81%);*/
+   /*clip-path: polygon(0 17%, 100% 14%, 100% 40%, 0 76%);*/
+ 
+    width:100%;
+
+}
