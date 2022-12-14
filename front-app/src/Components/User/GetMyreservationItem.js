@@ -1,20 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Card, Col, Button, DropdownButton } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-function GetMyreservationItem({_id}) {
- 
+function GetMyreservationItem({ _id }) {
     const navigate = useNavigate();
+    const [myReservations, setMyReservations] = useState();
+    // console.log(myReservations);
     let idUser = localStorage.getItem("id");
     let token = localStorage.getItem("token");
-   
-    const handleBuy = () => {
-        if (!token) {
-            navigate("/connecter");
-        }
+    useEffect(() => {
         axios
-            .post(
-                `/api/reservation_car?id=${_id}&userId=${idUser}`,
+            .get(
+                `/api/my_reservation/${idUser}`,
                 {},
                 {
                     headers: {
@@ -23,37 +20,30 @@ function GetMyreservationItem({_id}) {
                 }
             )
             .then((res) => {
-                console.log(res);
+                if (res) {
+                    setMyReservations(res.data.data);
+                }
             })
             .catch((err) => console.dir(err));
-    };
+    }, []);
+
     return (
         <Col>
-            <Card id="card-item">
-                <div id="dorpdown">
-                    <Button
-                        id="dropdown-button-drop"
-                        variant="light"
-                       
-                    >
-                       annuler
-                    </Button>
-                </div>
-                <div>
-                    {/* <Card.Img
-                        id="card-image"
-                        variant="top"
-                        src={img}
-                        width="150"
-                    /> */}
-                    <Card.Body>
-                        {/* <Card.Title>{type}  </Card.Title>
-                        <Card.Subtitle> {prix} TND </Card.Subtitle> */}
-                       
-                       
-                    </Card.Body> 
-                </div>
-            </Card>
+            {myReservations?.map((reser) => (
+                <Card id="card-item">
+                    <div id="dorpdown">
+                        <Button id="dropdown-button-drop" variant="light">
+                            annuler
+                        </Button>
+                    </div>
+                    <div>
+                        {reser.car.image.map((img) => (
+                            <Card.Img src={img} width="150" />
+                        ))}
+                        <Card.Body>{reser.dateFinLocation}</Card.Body>
+                    </div>
+                </Card>
+            ))}
         </Col>
     );
 }
