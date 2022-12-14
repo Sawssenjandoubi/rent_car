@@ -1,0 +1,108 @@
+.top__nav {
+    position: fixed;
+    top: 0;
+    left: 260px;
+    z-index: 999;
+    background: var(--primary-color);
+    width: calc(100% - 260px); 
+    height: 80px;
+    line-height: 70px;
+    background-color: rgb(255, 255, 255); 
+    
+    
+    border-radius: 5px;
+    padding:0 30px;
+   
+    /* width: 80%; */
+  }
+  
+  .top__nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+  
+  .top__nav-right {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    justify-content: flex-end;
+  }
+  
+  .search__box {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 10px;
+     /* background: #0b0c28 !important; */
+     background:whitesmoke;
+     border-radius: 5px;
+     cursor: pointer;
+     height: 40px;
+     width: 80%;
+     text-align: center;
+    
+     
+  }
+  
+  .search__box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--small-text-color);
+  }
+  
+  .search__box input::placeholder {
+    color: var(--small-text-color);
+  }
+  
+  .search__box span i {
+    color: var(--small-text-color);
+  }
+  
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: cover;
+  }
+  
+  .notification i {
+    color: var(--small-text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .notification {
+    position: relative;
+  }
+  
+  .badge {
+    /* position: absolute;
+    top: 25%;
+    right: -10%;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    color: black;
+    font-size: 0.8rem; */
+    padding: 0 3px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 19%;
+  }
+.all{
+  display: flex;
+  justify-content: flex-end;
+}

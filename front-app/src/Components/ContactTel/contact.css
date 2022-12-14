@@ -1,0 +1,52 @@
+body{
+    background-color : #f1f1f9;
+}
+.faq{
+    color:#30325d;
+   
+}
+.blocTel{
+    display : flex;
+    justify-content: center;
+    align-items:center;
+    margin:20px;
+    border: 1px solid #b33b90;
+    
+}
+.tel{
+    color: #007bff;
+    font-weight: bold;
+}
+.prixAppel{
+    background-color:#a20f77 ;
+    margin: 20px;
+    width: 20%; 
+    -webkit-clip-path: polygon(96% 0, 100% 50%, 95% 100%, 0% 100%, 10% 50%, 0% 0%);
+    clip-path: polygon(96% 0, 100% 50%, 95% 100%, 0% 100%, 10% 50%, 0% 0%);
+   
+}
+.allBloc{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width:72%;
+    
+    margin:auto;
+    margin-top: 50px;
+    padding: 10px;
+    position: center;
+    
+    border-radius: 5px ;
+    
+    
+   
+}
+.email{
+    cursor:pointer;
+    color:#007bff
+}
+.email:hover{
+    text-decoration: underline;
+}
