@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#admin-dashborad-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+@media screen and (max-width: 700px) {
+    #admin-dashborad-container {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    #section-item {
+        box-shadow: 1px 1px 2px black;
+        min-height: 30vh;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+}
+#section-item {
+    /* border: 1px red solid; */
+    box-shadow: 1px 1px 2px black;
+    min-height: 30vh;
+    width: 35%;
+    padding: 20px;
+    margin: 10px;
+}
+@media screen and (max-width: 700px) {
+    #section-item {
+        box-shadow: 1px 1px 2px black;
+        min-height: 30vh;
+        width: 100%;
+        padding: 20px;
+        margin: 10px;
+    }
+}
+#section-item:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#add-product-container {
+    border: 2px rgba(0, 0, 0, 0.103) solid;
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+}
+#products-container {
+    min-height: 91vh;
+    /* align-items: center; */
+}
+#products-list {
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+#spinner {
+    margin: 10% auto 25% auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#card-image {
+    width: 150px;
+}
+#card-item {
+    min-height: 53vh;
+    padding: 2%;
+}
+#dorpdown {
+    display: flex !important;
+    justify-content: end;
+}
+#product-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#users-list-container {
+    min-height: 91vh;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+#user-item-container {
+    border: 1px rgba(0, 0, 0, 0.358) solid;
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    box-shadow: 1px 1px 0px black;
+    display: flex;
+    flex-direction: column;
+}
+#user-item-container-banned {
+    border: 1px rgba(255, 24, 24, 0.894) solid;
+    background-color: crimson;
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 253, 253);
+    box-shadow: 1px 1px 0px rgb(251, 4, 4);
+    display: flex;
+    flex-direction: column;
+}
+#button {
+    border: none;
+    background-color: rgb(252, 58, 58);
+    color: white;
+    font-size: 0.8em;
+    margin: 1%;
+    align-self: flex-end;
+    box-shadow: 2px 2px 0px black;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#button:active {
+    box-shadow: 0px 1px 0px black;
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+}

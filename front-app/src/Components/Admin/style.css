@@ -1,0 +1,40 @@
+.sidebarAdmin{
+    /* width: 35%; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #2d2f6c;
+    color: white; */
+ 
+    
+}
+.menu .nav__list .nav__item{
+    margin: 2px;
+    padding:50px 0;
+    text-align: justify;
+  
+  float: right;
+}
+.zoomImage{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+.petitephoto:hover .zoomImage {
+  display: block;
+}
+
+.row{
+  width: 118%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  float: left;
+}

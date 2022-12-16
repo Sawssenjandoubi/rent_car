@@ -1,0 +1,29 @@
+
+.connexion{
+    color:#30325d;
+   text-align:center;
+}
+
+.blocCreerCompte{
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    margin:20px;
+    width:50%;
+    padding:30px;
+ 
+}
+.allBlocConnx{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.blocConx{
+    width: 50%;
+    margin:20px;
+    padding:30px;
+    background-color: white;
+}

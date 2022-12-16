@@ -1,0 +1,15 @@
+
+        <svg xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="54" height="68" viewBox="0 0 54 68">
+    <defs>
+        <clipPath id="t3zsvd2dwa">
+            <path dataName="Rectangle 1014" style="fill:none;stroke:#819db4" d="M0 0h54v68H0z"></path>
+        </clipPath>
+    </defs>
+    <g dataName="Groupe 8837" style="clipPath:url(#t3zsvd2dwa)">
+        <path dataName="Tracé 8213" d="M23.149 5.985c-3.589 3.026-10.2 6.386-21.878 6.386v28S-.451 53.817 26.994 66.738c27.445-12.921 25.722-26.372 25.722-26.372v-28C31.469 12.371 26.994 1.25 26.994 1.25" transform="translate(.006 .005)" style="strokeLinejoin:round;strokeWidth:2.5px;strokeLinecap:round;fill:none;stroke:#819db4"></path>
+        <path dataName="Tracé 8214" d="m19.089 29.073 8.091 11.2 14.914-17.82" transform="translate(.088 .095)" style="strokeLinejoin:round;strokeWidth:2.5px;strokeLinecap:round;fill:none;stroke:#819db4"></path>
+        <path dataName="Tracé 8215" d="M41.93 30.467a15.375 15.375 0 1 1-5.684-8.788" transform="translate(.054 .079)" style="strokeLinejoin:round;strokeWidth:2.5px;fill:none;stroke:#819db4"></path>
+    </g>
+</svg>
+        
+   
